@@ -10,4 +10,4 @@ Feature: Monthly TimeSheet
     And I navigate to "2U" Project
     Then I click on "Log time" on Project Overview page
     Then I select "QA" from the Activity Dropdown
-    And I fill in data from excel row number "1" to "3" and column number "0" to "2"
+    And I fill in data from excel row number "1" to "3" and column number "0" to "2"   
