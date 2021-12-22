@@ -46,7 +46,7 @@ public class TimeSheetStepDef{
 
 	@Then("^I select \"([^\"]*)\" from the Activity Dropdown$")
 	public void i_select_from_the_Activity_Dropdown(String arg5) throws Throwable {
-	    TimeSheet.iSelectActivity(arg5);
+	    TimeSheet.iSelectActivity(arg5); 
 	}
 	
 	@And("^I fill in data from excel row number \"([^\"]*)\" to \"([^\"]*)\" and column number \"([^\"]*)\" to \"([^\"]*)\"$")
