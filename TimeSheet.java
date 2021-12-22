@@ -46,7 +46,7 @@ public void iAmOnLoginPage() throws IOException
 	
 	public static void iClickLogin() throws IOException 
 	{
-	 driver.findElement(By.xpath("//input[@value='Login »']")).click();
+	 driver.findElement(By.xpath("//input[@value='Login Â»']")).click();
 	}
 	
 	public static void iVerifyHomeText() throws IOException 
@@ -67,6 +67,7 @@ public void iAmOnLoginPage() throws IOException
 	public static void iClickAOptionOnProjectPage(String arg4) throws IOException, InterruptedException 
 	{
 	 driver.findElement(By.xpath("//a[text()='"+arg4+"']")).click();
+		
 	}
 	
 	public static void iSelectActivity(String arg5) throws IOException, InterruptedException 
